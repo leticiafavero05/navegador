@@ -1,0 +1,99 @@
+/* ===========================
+   Cantos & Páginas - Estilos próprios
+   Tema: literatura / livros
+   =========================== */
+
+:root {
+  --cor-principal: #6b3e26; /* marrom livro antigo */
+  --cor-destaque: #d9a441; /* dourado */
+  --cor-fundo: #faf6f0; /* bege claro */
+}
+
+body {
+  background-color: var(--cor-fundo);
+  font-family: 'Georgia', 'Times New Roman', serif;
+  color: #3a2b1d;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--cor-principal) !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  color: #f5e9d8 !important;
+}
+
+.nav-link.active {
+  color: var(--cor-destaque) !important;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Seção de destaque na Home */
+.hero {
+  background-color: var(--cor-principal);
+  color: #fff;
+  padding: 60px 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.hero h1 {
+  font-weight: bold;
+}
+
+/* Cards de destaque na Home */
+.card {
+  border: 1px solid var(--cor-destaque);
+}
+
+.card-title {
+  color: var(--cor-principal);
+}
+
+/* Tabela */
+h2, h1 {
+  color: var(--cor-principal);
+}
+
+.table thead {
+  background-color: var(--cor-principal);
+  color: #fff;
+}
+
+/* Formulário */
+.form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid var(--cor-destaque);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btn-custom {
+  background-color: var(--cor-principal);
+  color: #fff;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: var(--cor-destaque);
+  color: #3a2b1d;
+}
+
+/* Rodapé */
+footer {
+  margin-top: 40px;
+  padding: 20px 0;
+  text-align: center;
+  color: #7a6a58;
+  font-size: 0.9rem;
+}
