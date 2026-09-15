@@ -36,4 +36,4 @@ Basta abrir o arquivo `index.html` no navegador, ou acessar o site publicado no 
 
 ## Autora
 
-Letícia Favero Alonso Esteves — Projeto da matéria de faculdade (FATEC Itu)
+Letícia Favero Alonso Esteves — Projeto de Desenvolvimento de Software (FATEC Itu)
